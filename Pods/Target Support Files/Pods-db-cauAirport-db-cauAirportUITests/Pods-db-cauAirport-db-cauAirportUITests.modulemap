@@ -1,0 +1,6 @@
+framework module Pods_db_cauAirport_db_cauAirportUITests {
+  umbrella header "Pods-db-cauAirport-db-cauAirportUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
