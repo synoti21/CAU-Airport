@@ -37,7 +37,6 @@ extension UINavigationController {
         navigationBar.setNeedsLayout()
         navigationBar.layoutIfNeeded()
         navigationBar.frame = navigationBar.frame
-        navigationBar.backgroundColor = .white
         
         navigationBar.layer.masksToBounds = false
         navigationBar.topItem?.rightBarButtonItems = rightitems

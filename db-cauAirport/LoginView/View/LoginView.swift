@@ -77,9 +77,10 @@ class LoginViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        setAttributes()
+
         addView()
         setLayout()
-        setAttributes()
 
         // Do any additional setup after loading the view.
     }
@@ -93,7 +94,7 @@ class LoginViewController: UIViewController {
     private func setLayout(){
         loginLabel.snp.makeConstraints{
             $0.leading.trailing.equalToSuperview().inset(20)
-            $0.top.equalTo(view.safeAreaInsets).offset(97)
+            $0.top.equalTo(view.safeAreaLayoutGuide).offset(9)
         }
         
         idField.snp.makeConstraints{
@@ -131,8 +132,18 @@ class LoginViewController: UIViewController {
     private func setAttributes(){
         view.backgroundColor = .white
         self.navigationController?.setupNavigationBar(items: [.back])
+        
         idField.addTarget(self, action: #selector(textFieldDidChange(textField:)), for: .editingChanged)
-        pwField.addTarget(self, action: #selector(textFieldDidChange(textField: )), for: .editingChanged)
+        pwField.addTarget(self, action: #selector(textFieldDidChange(textField:)), for: .editingChanged)
+        loginButton.addTarget(self, action: #selector(didTapButton), for: .touchUpInside)
+    }
+    
+    @objc private func didTapButton(){
+        let rootVC = MainScreenViewController()
+        let navVc = UINavigationController(rootViewController: rootVC)
+        navVc.modalPresentationStyle = .fullScreen
+        rootVC.loginUser = "안지완"
+        present(navVc, animated: true)
     }
     
     @objc func textFieldDidChange(textField : UITextField){
@@ -151,3 +162,4 @@ class LoginViewController: UIViewController {
     
 
 }
+

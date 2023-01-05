@@ -10,12 +10,13 @@
 		04A2FD5C262638220E6FEB86 /* Pods_db_cauAirport_db_cauAirportUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 470F983C00F33E8980738EC3 /* Pods_db_cauAirport_db_cauAirportUITests.framework */; };
 		2D9F7B0B64D7B383A6803385 /* Pods_db_cauAirport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C226E8F73743573CC8878C45 /* Pods_db_cauAirport.framework */; };
 		3F3472132961D0C400E915B9 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3472122961D0C400E915B9 /* UIColorExtension.swift */; };
-		3F3472152961EE7000E915B9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3472142961EE7000E915B9 /* LoginViewController.swift */; };
+		3F3472152961EE7000E915B9 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3472142961EE7000E915B9 /* LoginView.swift */; };
 		3F3472172962616000E915B9 /* UINavigationControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3472162962616000E915B9 /* UINavigationControllerExtension.swift */; };
 		3F347219296261C900E915B9 /* CommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F347218296261C900E915B9 /* CommonEnum.swift */; };
+		3FA33C6C29647A7500BCE9A9 /* MainScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA33C6B29647A7500BCE9A9 /* MainScreenView.swift */; };
 		3FCAF7E729596116007BC9ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCAF7E629596116007BC9ED /* AppDelegate.swift */; };
 		3FCAF7E929596116007BC9ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCAF7E829596116007BC9ED /* SceneDelegate.swift */; };
-		3FCAF7EB29596116007BC9ED /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCAF7EA29596116007BC9ED /* MainScreenViewController.swift */; };
+		3FCAF7EB29596116007BC9ED /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCAF7EA29596116007BC9ED /* LaunchScreenView.swift */; };
 		3FCAF7EE29596116007BC9ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FCAF7EC29596116007BC9ED /* Main.storyboard */; };
 		3FCAF7F029596118007BC9ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FCAF7EF29596118007BC9ED /* Assets.xcassets */; };
 		3FCAF7F329596118007BC9ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FCAF7F129596118007BC9ED /* LaunchScreen.storyboard */; };
@@ -47,13 +48,14 @@
 		16350A8A0D1589B215417963 /* Pods-db-cauAirport.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-db-cauAirport.debug.xcconfig"; path = "Target Support Files/Pods-db-cauAirport/Pods-db-cauAirport.debug.xcconfig"; sourceTree = "<group>"; };
 		3E378C2E48EAB8813C12823B /* Pods-db-cauAirportTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-db-cauAirportTests.debug.xcconfig"; path = "Target Support Files/Pods-db-cauAirportTests/Pods-db-cauAirportTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3F3472122961D0C400E915B9 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
-		3F3472142961EE7000E915B9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3F3472142961EE7000E915B9 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		3F3472162962616000E915B9 /* UINavigationControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationControllerExtension.swift; sourceTree = "<group>"; };
 		3F347218296261C900E915B9 /* CommonEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonEnum.swift; sourceTree = "<group>"; };
+		3FA33C6B29647A7500BCE9A9 /* MainScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenView.swift; sourceTree = "<group>"; };
 		3FCAF7E329596116007BC9ED /* db-cauAirport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "db-cauAirport.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FCAF7E629596116007BC9ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FCAF7E829596116007BC9ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3FCAF7EA29596116007BC9ED /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
+		3FCAF7EA29596116007BC9ED /* LaunchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
 		3FCAF7ED29596116007BC9ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FCAF7EF29596118007BC9ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FCAF7F229596118007BC9ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -109,11 +111,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		3F229C352966A03300260831 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3FA33C6B29647A7500BCE9A9 /* MainScreenView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		3F34720E295DE34C00E915B9 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				3FCAF7EA29596116007BC9ED /* MainScreenViewController.swift */,
-				3F3472142961EE7000E915B9 /* LoginViewController.swift */,
+				3FCAF7EA29596116007BC9ED /* LaunchScreenView.swift */,
+				3F3472142961EE7000E915B9 /* LoginView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -125,13 +135,6 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		3F347210295DE35C00E915B9 /* Cell */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Cell;
-			sourceTree = "<group>";
-		};
 		3F3472112961D0B300E915B9 /* Common */ = {
 			isa = PBXGroup;
 			children = (
@@ -140,6 +143,23 @@
 				3F347218296261C900E915B9 /* CommonEnum.swift */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		3FA33C692963060C00BCE9A9 /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				3F34720F295DE35200E915B9 /* Model */,
+				3F34720E295DE34C00E915B9 /* View */,
+			);
+			path = LoginView;
+			sourceTree = "<group>";
+		};
+		3FA33C6A29647A5100BCE9A9 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				3F229C352966A03300260831 /* View */,
+			);
+			path = MainView;
 			sourceTree = "<group>";
 		};
 		3FCAF7DA29596116007BC9ED = {
@@ -168,9 +188,8 @@
 			isa = PBXGroup;
 			children = (
 				3F3472112961D0B300E915B9 /* Common */,
-				3F34720F295DE35200E915B9 /* Model */,
-				3F34720E295DE34C00E915B9 /* View */,
-				3F347210295DE35C00E915B9 /* Cell */,
+				3FA33C692963060C00BCE9A9 /* LoginView */,
+				3FA33C6A29647A5100BCE9A9 /* MainView */,
 				3FCAF7E629596116007BC9ED /* AppDelegate.swift */,
 				3FCAF7E829596116007BC9ED /* SceneDelegate.swift */,
 				3FCAF7EC29596116007BC9ED /* Main.storyboard */,
@@ -450,12 +469,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FCAF7EB29596116007BC9ED /* MainScreenViewController.swift in Sources */,
+				3FCAF7EB29596116007BC9ED /* LaunchScreenView.swift in Sources */,
 				3FCAF7E729596116007BC9ED /* AppDelegate.swift in Sources */,
 				3FCAF7E929596116007BC9ED /* SceneDelegate.swift in Sources */,
-				3F3472152961EE7000E915B9 /* LoginViewController.swift in Sources */,
+				3F3472152961EE7000E915B9 /* LoginView.swift in Sources */,
 				3F3472132961D0C400E915B9 /* UIColorExtension.swift in Sources */,
 				3F347219296261C900E915B9 /* CommonEnum.swift in Sources */,
+				3FA33C6C29647A7500BCE9A9 /* MainScreenView.swift in Sources */,
 				3F3472172962616000E915B9 /* UINavigationControllerExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

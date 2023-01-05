@@ -8,9 +8,9 @@
 import UIKit
 import SnapKit
 
-class MainScreenViewController: UIViewController {
+class LaunchScreenViewController: UIViewController {
     
-   
+    
     
     let topTitle : UILabel = {
         let label = UILabel()
@@ -24,28 +24,28 @@ class MainScreenViewController: UIViewController {
     
     let decorationFirCircle : UIView = {
         let view = UIView()
-        view.backgroundColor = .secondaryColor
+        view.backgroundColor = .decorativeColor
         
         return view
     }()
     
     let decorationSecCircle : UIView = {
         let view = UIView()
-        view.backgroundColor = .secondaryColor
+        view.backgroundColor = .decorativeColor
         
         return view
     }()
     
     let decorationThrCircle : UIView = {
         let view = UIView()
-        view.backgroundColor = .secondaryColor
+        view.backgroundColor = .decorativeColor
         
         return view
     }()
     
     let decorationFouCircle : UIView = {
         let view = UIView()
-        view.backgroundColor = .secondaryColor
+        view.backgroundColor = .decorativeColor
         
         return view
     }()
@@ -239,9 +239,7 @@ class MainScreenViewController: UIViewController {
 
     @objc private func didTapButton(){
         let rootVC = LoginViewController()
-        let navVc = UINavigationController(rootViewController: rootVC)
-        navVc.modalPresentationStyle = .fullScreen
-        present(navVc, animated: true)
+        self.navigationController?.pushViewController(rootVC, animated: true)
     }
 }
 
